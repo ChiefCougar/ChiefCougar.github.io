@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (drops[i] * fontSize > canvas.height && Math.random() > 0.97) {
         drops[i] = 0;
       }
-      drops[i] += 0.15;
+      drops[i] += 0.20;
     }
   }
 
@@ -102,3 +102,4 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 });
+
